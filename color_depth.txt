@@ -1,0 +1,32 @@
+Color Depth
+	
+	The amount of data used to represetn a single pixel
+
+		size  | color options
+		--------------------------------
+		1 bit | 1 color, on | off
+		2 bit | 1 color with intensity
+		3 bit | Red,Green,Blue, on | off
+		4 bit | RGB with intensity
+		6 bit | RGB, each color has its own intensity
+	   3 Byte | RGB, each with 256 possible intensities
+
+	Other Color Spaces
+
+		RGBA
+
+			Red, Green, Blue + Alpha (transparency)
+
+		HSB
+	
+			Hue, Saturation, Brightness
+
+	Image File Formats
+
+		Raster Vs. Vector
+
+			Vector formats represent images as a series of drawing instructions.
+
+				Infinitely scalable.
+
+				SVG (Scalable Vector Graphcis).
