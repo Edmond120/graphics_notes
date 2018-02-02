@@ -30,3 +30,5 @@ Color Depth
 				Infinitely scalable.
 
 				SVG (Scalable Vector Graphcis).
+
+			Raster formats represent images as a grid of pixels.
