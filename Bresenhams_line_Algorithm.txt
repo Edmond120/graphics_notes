@@ -1,0 +1,8 @@
+Bresenhams Line Algorithm
+
+	Find the best pixels to approximate the target line.
+
+	Assume: (x0, y0) -> (x1, y1)
+			x0, y0, x1, y1 : are all intergers
+			x0 < x1
+			Octant I
