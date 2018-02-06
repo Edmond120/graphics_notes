@@ -5,4 +5,27 @@ Bresenhams Line Algorithm
 	Assume: (x0, y0) -> (x1, y1)
 			x0, y0, x1, y1 : are all intergers
 			x0 < x1
-			Octant I
+
+	if (x+1, y+1/2) is above the line, draw lower pixel
+	if (x+1, y+1/2) is below the line, draw upper pixel
+
+# = delta
+
+y = mx + b
+
+F(x,y) = 0 = Ax + By + C
+A = #y
+B = -#x
+C = (#x)b
+
+
+First draft line Algorithm (x0, y0)->(x1,y1)
+	x = x0, y =y0
+	d = 2A + B //F is the line function
+	while x <= x1,
+		plot(x, y)
+		if(d>0)
+			y++
+			d+=B
+		x++
+		d+=A
