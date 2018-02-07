@@ -19,6 +19,12 @@ B = -#x
 C = (#x)b
 
 
+Octant I
+
+	_____
+	| |1|
+	|s|2|
+	-----
 First draft line Algorithm (x0, y0)->(x1,y1)
 	x = x0, y =y0
 	d = 2A + B //F is the line function
@@ -26,6 +32,25 @@ First draft line Algorithm (x0, y0)->(x1,y1)
 		plot(x, y)
 		if(d>0)
 			y++
-			d+=B
+			d+=2B
 		x++
-		d+=A
+		d+=2A
+
+Octant II
+	_____
+	|1|2|	(x, y+1)
+	|s| |	(x+1,y+1)
+	-----
+
+	mp: (x + 1/2, y + 1)
+	d0: f(x0 + 1/2, y0 + 1)
+		(1/2)A + B
+		A + 2B
+
+Octant VIII
+	_____
+	|s|1| (x + 1, y)
+	| |2| (x + 1, y - 1)
+	-----
+
+	mp(x + 1, y - 1/2)
