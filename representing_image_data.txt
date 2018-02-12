@@ -1,0 +1,3 @@
+Edge list (edge matrix):
+	Iamges are stored as a list of points,
+	where each 2 points define a line.
