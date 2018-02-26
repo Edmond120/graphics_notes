@@ -1,0 +1,7 @@
+Polar Coordinates:
+-	x = rcos(ϕ)
+- 	y = rsin(θ)
+-	x1= rcos(ϕ + θ)
+-	x1 = xcos(θ) - ysin(θ)
+-	rcos(ϕ)cos(θ) - rsin(ϕ)sin(θ)
+-	y1 = rsin(ϕ + θ)

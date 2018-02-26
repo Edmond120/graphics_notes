@@ -49,3 +49,12 @@ Matrix Math For Graphics:
 			[0 0 1 c]   [z]   [z + c]
 			[0 0 0 1]   [1]   [  1  ]
 			``
+		Dilation:
+			``
+			       D(a,b,c)
+			(x,y,z)───────→ (ax,by,cz)
+			[a 0 0 0]   [x]  [ax]
+			[0 b 0 0] * [y] =[by]
+			[0 0 c 0]   [z]  [cz]
+			[0 0 0 1]   [1]  [ 1]
+			``
