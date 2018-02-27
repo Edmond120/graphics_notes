@@ -53,8 +53,25 @@ Matrix Math For Graphics:
 			``
 			       D(a,b,c)
 			(x,y,z)───────→ (ax,by,cz)
-			[a 0 0 0]   [x]  [ax]
-			[0 b 0 0] * [y] =[by]
-			[0 0 c 0]   [z]  [cz]
-			[0 0 0 1]   [1]  [ 1]
+			[a 0 0 0]   [x]   [ax]
+			[0 b 0 0] * [y] = [by]
+			[0 0 c 0]   [z]   [cz]
+			[0 0 0 1]   [1]   [ 1]
 			``
+		Rotation:
+			``
+			       R(theta)
+			(x,y,z)───────→ (xcos(theta)-ysin(theta),ycos(theta)+xsin(theta),z)
+			t = theta
+			[cos(t), -sin(t), 0, 0]   [x]   [xcos(t)-ysin(t)]
+			[sin(t),  cos(t), 0, 0] * [y] = [ycos(0)+xsin(0)]
+			[   0  ,    0   , 1, 0]   [z] = [       z       ]
+			[   0  ,    0   , 0, 1]   [1] = [       1       ]
+			``
+
+			R(t,x):
+				y1 = ycos(t)-zsin(t)
+				z1 = zcos(t)+ysin(t)
+			R(t,y):
+				z1 = zcos(t)-xsin(t)
+				x1 = xcos(t)+zsin(t)
