@@ -1,0 +1,27 @@
+Parametric Equations:
+	Define curves as systems of equations with a single independent
+	variable(t).
+
+		x = f(t)
+		y =	g(t)
+
+	For consistency, we will use the range [0,1] for t.
+
+	General Parametric Framework:
+		```
+		for t:theta - 1, t += step
+			x=f(t)
+			y=g(t)
+		
+		add(x,y)
+		```
+
+	Circle r (xc,yc):
+		```
+		x=f(t) = rcos(2(pi)t) + xc
+		y=g(t) = rsin(2(pi)t) + yc
+		```
+
+	Splines:
+	-	Curves that can be connected smoothly
+	-	We are only using cubic spines
