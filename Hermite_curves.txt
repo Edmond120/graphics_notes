@@ -1,0 +1,33 @@
+Hermite Curves:
+	Given Information:
+	-	P0,P1 : endpoints
+	-	R0,R1 : rates of change at endpoints
+
+		f(t) = at^3 + bt^2 + ct + d : points
+
+		f'(t) = 3at^2 + 2bt + c     : Rates of change
+
+	When t = 0:
+		f(0) = d : P0
+		f'(0)= c : R0
+
+	When t = 1:
+		f(1) = a + b + c + d : P1
+		f'(1)= 3a + 2b + c   : R1
+
+	Matrix:
+		``
+		[0 0 0 1] [a] [P0]
+		[1 1 1 1]*[b]=[P1]
+		[0 0 1 0] [c] [R0]
+		[3 2 1 0] [d] [R1]
+
+		    H  * C = G
+
+		[ 2 -2  1  1] [P0] [a]
+		[-3  3 -2 -1]*[P1]=[b]
+		[ 0  0  1  0] [R0] [c]
+		[ 1  0  0  0] [R1] [d]
+
+			 H^-1
+		``
