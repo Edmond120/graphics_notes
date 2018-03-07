@@ -1,0 +1,5 @@
+Bezier Curves:
+-	Given n+1 points, where n=degree of curve
+	
+-	Lines  Pt moves along the line(P0,P1)
+
