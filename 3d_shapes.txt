@@ -1,0 +1,17 @@
+3D shapes:
+	-Box, Sphere, Torus
+
+	Box:
+		Defining Points:
+		-	Verticies
+
+		Given Information:
+		-	Width (x)
+		-	height(y)
+		-	depth (z)
+		-	P0 (top-left-front)
+
+	Sphere:
+		Defining Points:
+
+		Given Information:
