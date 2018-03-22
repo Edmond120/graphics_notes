@@ -1,0 +1,13 @@
+{3D rendering}:
+	{wireframe}:
+		{wireframe->mesh}
+
+		Shape definition is created by connecting
+		__edges__ between points on the surface.
+
+	{polygon mesh}:
+		{polygon mesh->mesh}
+
+		Shape definition is created by connecting
+		points on the surface to create polygons.
+		(triangles, quadralaterals)
