@@ -1,0 +1,8 @@
+Vector Math:
+	{Cross Product}:
+		{Vector}
+		``
+		A * B = <Ay * Bz - Az * By,
+				 Az * Bx - Ax * Bz,
+				 Ax * By - Ay * Bx>
+		``
