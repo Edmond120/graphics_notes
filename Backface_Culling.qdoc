@@ -1,0 +1,48 @@
+{Backface Culling}:
+	{Polygon}
+	only draw the forward facing surfaces.
+
+	Vector N:
+	-	Surface normal
+
+	-	Perpendicular to the polygon
+
+	Vector V:
+	-	View vector
+
+	-	Vector from surface to the eye/camera
+
+	Method:
+	-	1. Calculate Vector N
+	-	2. Find theta
+	-	3. If -90 < theta < 90,
+		   draw polygon
+
+		Calculate Vector N:
+
+			Triangle has p0,p1,p2
+
+			N =  A * B
+
+			A = <P1 - P0>
+
+			B = <p2 - P0>
+
+		Find theta:
+
+			Magnitude:
+				||x||
+
+			N * V = ||N|| * ||V|| * cos(theta)
+
+			You have to set the view vector
+
+			V = <0,0,1> is the default view vector
+
+			Example:
+
+				V = <0,0,1>
+
+				N = <x,y,z>
+
+				N * V = z
