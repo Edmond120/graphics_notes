@@ -1,0 +1,16 @@
+{Relative Coordinate System}:
+
+-	Currently transformations are applied to all
+	the shapes in an image.
+-	In a R.C.S. we can apply transformations to individual
+	or groups of shapes.
+-	Transformations will be applied to the "world" or
+	current coordinate system.
+
+Drawing in a R.C.S. :
+-	1)  Generate the polygons/edger
+-	2)  Apply the current coordinate system to those
+		points
+-	3)  Draw the polygons/edges to the image (screen)
+
+	`#	basically push/pop matrix in processing

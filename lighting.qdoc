@@ -1,0 +1,33 @@
+{Lighting}:
+	Realistic lightning models find color based on
+	-	The color, intensity and location of light(s)
+	-	The reflective propertives of objects.
+
+There are 2 different kinds of light in our images
+
+{Ambient light}:
+-	General/Background lighting
+-	Comes from everywhere evenly
+-	Represented by a regular color value (0-255)
+
+{Point light sources}:
+-	Come from a distinct origin.
+-	We will assume that origin is very far away.
+-	Represented by color and location.
+
+{Phong Reflection Model}:
+	Models realistic reflections by breaking reflection
+	into 3 parts:
+		Ambient, Diffuse, Specular
+
+	I = Ambient = Diffuse + Specular
+
+	Ambient:
+	-	A : Ambient light value of (0-255)
+	-	Ka: constant of ambient reflecton (0-1)
+	-	Ambient = Aka
+
+	Diffuse Reflection:
+	-	Reflection of a point light source
+	-	Reflected in all directions evenly
+	-	Matte/dull finish
