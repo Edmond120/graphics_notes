@@ -22,12 +22,24 @@ There are 2 different kinds of light in our images
 
 	I = Ambient = Diffuse + Specular
 
-	Ambient:
+	{Ambient}:
 	-	A : Ambient light value of (0-255)
 	-	Ka: constant of ambient reflecton (0-1)
 	-	Ambient = Aka
 
-	Diffuse Reflection:
+	{Diffuse Reflection}:
 	-	Reflection of a point light source
 	-	Reflected in all directions evenly
 	-	Matte/dull finish
+
+	-	Kd     : Constant of diffuse reflection
+	-	P      : Color of point light source
+	-	Theta  : angle between light vector and normal vector
+	-	Diffuse: PKd(cos(theta))
+
+	{Specular Reflection}:
+	-	Reflection of a Point light source in a specific direction
+	-	Models -> glossy/shiny surfaces
+
+	-	Ks: constant of specular reflection
+	-	P : Color of point light source
