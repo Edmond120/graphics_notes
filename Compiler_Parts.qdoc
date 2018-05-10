@@ -1,0 +1,13 @@
+Compiler Part Order:
+	```
+	Name              | input       | output
+	-----------------------------------------------
+	lexer             | Source code | token list
+	parser            | token list  | parse tree
+	semantic analyzer | parse tree  | operation list
+	```
+
+Sematic Analyzer:
+-	Evaluates the syntax tree to create a list of operations
+-	Creates a Symbol table containing all identifiers and associated information.
+-	Type errors are usually caught here.
