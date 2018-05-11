@@ -11,3 +11,8 @@ Sematic Analyzer:
 -	Evaluates the syntax tree to create a list of operations
 -	Creates a Symbol table containing all identifiers and associated information.
 -	Type errors are usually caught here.
+
+Code Generator:
+-	Translate the operation list into a series of assembly language
+	instructions.
+
