@@ -9,3 +9,9 @@
 	-	calculate every knob value for every frame
 	-	stroe values
 	-	catch errors
+
+	3rd pass: Draw  :
+	-	loop through operations for each frame
+	-	at the beginning of each loop, set symbol table
+		values for each knob.
+	-	automatically save each frame
