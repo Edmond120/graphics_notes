@@ -1,0 +1,11 @@
+3-pass Animation Framework:
+
+	1st pass: Setup :
+	-	looks fro basename, frames, vary
+	-	sets basename & frames.
+	-	catch errors
+
+	2nd pass: Vary  :
+	-	calculate every knob value for every frame
+	-	stroe values
+	-	catch errors
